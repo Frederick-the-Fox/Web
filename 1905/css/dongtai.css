@@ -1,0 +1,64 @@
+/* 新片动态 */
+
+
+
+.dongtaisafe{
+    width: 1500px;
+    height: 702px;
+    background-color: white;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+}
+.dongtaibg{
+    background-color: white;
+    width: 100%;
+}
+.dtleftbox{
+    width: 320px;
+    height: 220px;
+    /* border: 1px solid green; */
+    float: left;
+    margin: 0 0 0 20px;
+}
+.dongtaileft{
+    width: 1030px;
+    height: 460px;
+    /* border: 1px solid blue; */
+    position: absolute;
+    float: left;
+    margin: 0 0 0 30px;
+}
+.dongtairight{
+    float: right;
+    margin: 0 70px 0 0;
+    /* border: green 1px solid; */
+}
+.dtte{
+    display: block;
+    margin: 0 auto;
+    width: 317px;
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+}
+.dtte:hover{
+    display: block;
+    margin: 0 auto;
+    width: 317px;
+    text-align: center;
+    color: #2267ad;
+    font-size: 14px;
+    cursor: pointer;
+}
+.lb{
+    position: relative;
+    top: 0px;
+}
+.dongtaimidd{
+    height: 500px;
+}
+.dongtaimidd img:hover{
+    opacity: 0.7;
+    animation: opa 0.2s;
+    cursor: pointer;
+}

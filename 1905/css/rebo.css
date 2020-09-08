@@ -1,0 +1,76 @@
+
+/* 热播大片 */
+.rebobg{
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 620px;   
+}
+
+.rebosafe{
+    width: 1500px;
+    /* border: 1px solid red; */
+    height: 550px;
+    margin: 0 auto;
+}
+.rebobox{
+    width: 180px;
+    height: 315px;
+    /* border: 1px solid green; */
+    float: left;
+    margin: 0 0 0 27px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.rebobox img:hover{
+    opacity: 0.7;
+    animation: opa 0.2s;
+    cursor: pointer;
+}
+.rebobox p{
+    text-align: center;
+    margin: 10px 0;
+    display: block;
+}
+.rebobox p:hover{
+    text-align: center;
+    margin: 10px 0;
+    display: block;
+    cursor: pointer;
+}
+.rebomid{
+    height: 350px;
+    /* border: violet 1px solid; */
+}
+.botbig{
+    width: 360px;
+    height: 100px;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+}
+.xinpianchakan1{
+    float: left;
+}
+.xinpianchakan2{
+    float: right;
+}
+.linkbot{
+    width: 1500px;
+}
+.linkbot a{
+    float: left;
+    width: 100px;
+    height: 50px;
+    /* border: 1px red solid; */
+    margin-left: 40px;
+    text-align: center;
+    color: #666666;
+}
+.linkbot a:hover{
+    float: left;
+    width: 100px;
+    height: 50px;
+    /* border: 1px red solid; */
+    margin-left: 40px;
+    text-align: center;
+    color: #2267ad;
+}

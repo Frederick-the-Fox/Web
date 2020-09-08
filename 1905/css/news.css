@@ -1,0 +1,139 @@
+/* 新闻 */
+
+
+
+
+
+
+.newssafe{
+    margin: 0 auto;
+    height: 600px;
+    padding: 0 0 50px 0;
+    width: 1500px;
+    display: block;
+    /* border: red solid 1px; */
+}
+.newsbox{
+    width: 1500px;
+    height: 527px;
+    /* border: blue solid 1px; */
+    /* margin: 0 auto; */
+}
+.newschakan{
+    width: 156px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    border: 1px solid #717171;
+    text-align: center;
+    border-radius: 999px;
+    /* display: none; */
+}
+.newschakan a{
+    color: #818181;
+}
+.newschakan:hover{
+    background-color: #5f7faf;
+}
+.newschakan:hover a{
+    color: white;
+}
+.newsboxleft{
+    width: 461px;
+    height: 527px;
+    /* border: green solid 1px; */
+    float: left;
+    margin-right: 40px;
+}
+.newsboxmid{
+    width: 416px;
+    height: 525px;
+    /* border: green solid 1px; */
+    margin: 0 0 0 30px;
+    float: left;
+    margin-right: 40px;
+}
+.newsboxright{
+    width: 443px;
+    height: 500px;
+    /* border: green solid 1px; */
+    margin: 0 0 0 30px;
+    float: left;
+}
+/* .newsboxmid li{
+    padding: 5px 0;
+} */
+.newsbar{
+    padding: 5px 0;
+}
+.shenbox{
+    width: 440px;
+    height: 440px;
+    /* border: red 1px solid; */
+}
+.shenupimg{
+    width: 178px;
+    height: 112px;
+    /* border: red 1px solid; */
+    float: left;
+}
+.shenzhe{
+    width: 176px;
+    height: 110px;
+    background-color: rgba(255,255,255,0);
+    z-index: 100;
+    position: relative;
+}
+.shenzhe:hover{
+    width: 176px;
+    height: 110px;
+    z-index: 100;
+    position: relative;
+    background-color: rgba(255,255,255,0.3);
+    animation: light 0.2s;
+    cursor: pointer;
+}
+@keyframes light{
+    0%{
+        width: 176px;
+        height: 110px;
+        background-color: rgba(255,255,255,0);
+        z-index: 100;
+        position: relative;
+    }
+    100%{
+        background-color: rgba(255,255,255,0.3);
+    }
+}
+
+.shensup{
+    height: 110px;
+    padding: 20px 0;
+    /* border: blue 1px solid; */
+    border-bottom: 1px solid #e8e8e8;
+    /* position: absolute; */
+    
+}
+.shenupte a h5{
+   text-decoration: none; 
+   color: #333333;
+}
+.shenupte a h5:hover{
+    text-decoration: none; 
+    color: rgb(34, 103, 173);
+ }
+.shenupte a p{
+    color: #888888;
+}
+.shenupte1{
+    padding: 0 0 0 190px;
+    margin-top: -100px;
+    
+    /* border: red solid 1px; */
+}
+.shenupte2{
+    padding: 0 0 0 190px;
+    margin-top: -100px;
+    
+    /* border: red solid 1px; */
+}

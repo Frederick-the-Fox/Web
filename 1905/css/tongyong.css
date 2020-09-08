@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font: 14px/24px Microsoft YaHei, Arial, Helvetica, sans-serif;}
+body{color:#333333;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+small{font-size:10px;}
+ul,ol{list-style:none;}
+a{text-decoration:none; color: black;}
+a:hover{color:rgb(34, 103, 173);}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+abbr[title]{border-bottom:1px dotted;cursor:help;}
+legend{color:#000;}
+fieldset, img { border:0;} 
+a img{vertical-align:text-bottom;}
+:focus {outline:0;}
+textarea{overflow:auto;vertical-align:top;resize:vertical;}
+button,input,select,textarea{font-size:100%;}
+button,input,select{vertical-align:middle;}
+button{cursor:pointer;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+/*Common Style
+--------------------------------*/
+/*text align*/
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.tj{ text-align:justify;}
+/*float and clear*/
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.cb{ clear:both;}
+/*clear*/
+.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+.w1200{width:1200px;}
+.juzhong{margin:0 auto;}
+.juzhong1{margin:40px auto;}
+.juzhong2{margin:0 auto 40px auto;}
+.juzhong3{margin:40px auto 0 auto;}
+.juzhong4{ margin:60px auto 40px auto;}
+.l20{line-height:20px;}
+.l24{line-height:24px;}
+.l30{line-height:30px;}
+.l40{line-height:40px;}
+.l42{line-height:42px;}
+.l60{line-height:60px;}
+.l80{line-height:80px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f24{font-size:24px;}
+.f20{font-size:20px;}
+.f30{font-size:30px;}
+.arial{font-family:Arial, Helvetica, sans-serif;}
+.nor{font-weight:normal;}
+.mw{width:100%; min-width:1200px;}
+.green{color:#079b6f;}
+.blue{ color:#36546d;}
+.green1{color:#045f67;}
+.white{color:#fff;}
+.yellow{color:#fff100;}
+.red{color:#0284dc;}
+.c666{color:#666;}
+.c333{color:#333;}
+.c74{color:#747474;}
+.c8f{color:#8f8f8f;}
+.newsbar li:hover{
+    color: rgb(34, 103, 173);
+    cursor: pointer;
+}
+@keyframes opa{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.7;
+    }
+}
+@keyframes opa2{
+    0%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+}

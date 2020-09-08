@@ -1,0 +1,188 @@
+/* 电影评论 */
+.safe{
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+    width: 1500px;
+    display: block;
+    /* border: red solid 1px; */
+}
+
+.pinglun{
+    background-color: rgb(245, 245, 245);
+}
+.sub{
+    font-size: 35px;
+    line-height: 110px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.boxleft{
+    float: left;
+    width: 458px;
+    height: 480px;
+    display: block;
+    margin: 0 47px 61px;
+    background: white;
+}
+.piczhe{
+    width: 458px;
+    height: 239px;
+    background-color: rgba(255,255,255,0);
+    margin-top: -242px;
+    position: relative;
+    z-index: 100;
+    /* border: red 1px solid; */
+}
+.piczhe:hover{
+    width: 458px;
+    height: 239px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: -242px;
+    position: relative;
+    z-index: 100;
+    animation: light1 0.2s;
+    cursor: pointer;
+    /* border: red 1px solid; */
+}
+@keyframes light1{
+    0%{
+        width: 458px;
+        height: 239px;
+        background-color: rgba(255,255,255,0);
+        margin-top: -242px;
+        position: relative;
+        z-index: 100;
+    }
+    100%{
+        background-color: rgba(255,255,255,0.3);
+    }
+}
+.link{
+    /* border: 1px solid rgb(205, 0, 1); */
+    border-radius: 999px;
+    width: 63px;
+    height: 20px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: rgb(205, 0, 1);
+    text-decoration: none;
+    margin: 0 13px 0 20px;
+}
+.text01{
+    font-size: 14px;
+    color: #888888;
+    display: block;
+    line-height: 24px;
+}
+.clear{
+    clear: both;
+    padding: 7px 0;
+}
+.link02{
+    display: block;
+    text-decoration: none;
+    /* color: #000000; */
+    font-size: 19px;
+    padding: 0 0 0 20px;
+}
+.boxmid{
+    float: left;
+    width: 488px;
+    height: 450px;
+    display: block;
+    background: white;
+    padding: 15px 29px 20px 20px;
+}
+.boxmid .plmid{
+    height: 135px;
+    /* border: red 1px solid; */
+    width: 488px;
+    margin-bottom: 15px;
+}
+.plmid a{
+    float: left;
+}
+.plmidup img{
+    margin-top: 5px;
+}
+.plmidup img:hover{
+    margin-top: 5px;
+    opacity: 0.7;
+    animation: opa 0.2s;
+}
+
+.plmidmid img{
+    margin-top: 5px;
+}
+.plmidmid img:hover{
+    margin-top: 5px;
+    opacity: 0.7;
+    animation: opa 0.2s;
+}
+.plmidbot img{
+    margin-top: 5px;
+}
+.plmidbot img:hover{
+    margin-top: 5px;
+    opacity: 0.7;
+    animation: opa 0.2s;
+    cursor: pointer;
+}
+.plbig{
+    float: left;
+    /* border: red 1px solid; */
+    width: 245px;
+    margin-left: 5px;
+}
+.plbig h3{
+    font: 16px/25px "Microsoft Yahei";
+    margin-bottom: 8px;
+    display: block;
+}
+.plbig h3:hover{
+    font: 16px/25px "Microsoft Yahei";
+    color: #2267ad;
+    cursor: pointer;
+    margin-bottom: 8px;
+    display: block;
+}
+
+
+.boxright{
+    float: left;
+    width: 272px;
+    height: 480px;
+    display: block;
+    margin: 0 47px 61px;
+    background: white;
+}
+.gengduo{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #818181;
+    margin: -10px auto 0 auto;
+    width: 156px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 999px;
+    color: #818181;
+    text-decoration: none;
+}
+.gengduo:hover{
+    background-color: #5f7faf;
+    color: white;
+}
+.pic img{
+    width: 272px;height: 304pxd;
+    opacity: 1;
+}
+.pic img:hover{
+    width: 272px;height: 304pxd;
+    opacity: 0.7;
+    animation: opa 0.2s;
+    cursor: pointer;
+}

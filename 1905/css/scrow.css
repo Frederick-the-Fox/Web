@@ -1,0 +1,138 @@
+/* 滚屏 */
+.gunsafe{
+    width: 1500px;
+    height: 500px;
+    /* border: red 1px solid; */
+    margin: 30px auto;
+    background-color: #0b0e12;
+    cursor: pointer;
+}
+.gunbig{
+    width: 198px;
+    height: 66px;
+    float: left;
+    /* border: red 1px solid; */
+    padding: 0 7px 0 7px;
+    background-color: #0b0e12;
+    color: white;
+    z-index: 99;
+    /* position: absolute; */
+}
+.gunbig:hover{
+    background-color: #2f333f;
+}
+.gunbig p{
+    margin: 5px auto;
+    width: 150px;
+    text-align: center;
+}
+.gunsuper{
+    height: 432px;
+    width: 100%;
+    /* border: blue 1px solid; */
+}
+.gun01{
+    position: relative;
+    top: -495px;
+    left: -7px;
+    width: 1500px;
+    z-index: 1;
+    /* opacity: 0.7; */
+    /* float: left; */
+    /* display: none; */
+}
+
+/* .gun02{
+    position: relative;
+    top: -564px;
+    left: -7px;
+    width: 1500px;
+} */
+.gun02{
+    position: relative;
+    top: -495px;
+    left: -219px;
+    width: 1500px;
+    display: none;
+    z-index: 99;
+    opacity: 0.7;
+}
+
+.gun03{
+    position: relative;
+    top: -495px;
+    left: -431px;
+    width: 1500px;
+    display: none;
+    z-index: 99;
+    opacity: 0.7;
+}
+.gun04{
+    position: relative;
+    top: -495px;
+    left: -643px;
+    width: 1500px;
+    display: none;
+    z-index: 99;
+    opacity: 0.7;
+}
+.gun05{
+    position: relative;
+    top: -495px;
+    left: -855px;
+    width: 1500px;
+    display: none;
+    z-index: 99;
+    opacity: 0.7;
+}
+.gun06{
+    position: relative;
+    top: -495px;
+    left: -1067px;
+    width: 1500px;
+    display: none;
+    z-index: 99;
+    opacity: 0.7;
+}
+.gun07{
+    position: relative;
+    top: -495px;
+    left: -1279px;
+    width: 1500px;
+    display: none;
+    z-index: 99;
+    opacity: 0.7;
+}
+/* .gun1:hover .gun01{
+    display: block;
+} */
+.gun2:hover .gun02{
+    display: block;
+    opacity: 1;
+    animation: opa2 0.5s;
+}
+.gun3:hover .gun03{
+    display: block;
+    opacity: 1;
+    animation: opa2 0.5s;
+}
+.gun4:hover .gun04{
+    display: block;
+    opacity: 1;
+    animation: opa2 0.5s;
+}
+.gun5:hover .gun05{
+    display: block;
+    opacity: 1;
+    animation: opa2 0.5s;
+}
+.gun6:hover .gun06{
+    display: block;
+    opacity: 1;
+    animation: opa2 0.5s;
+}
+.gun7:hover .gun07{
+    display: block;
+    opacity: 1;
+    animation: opa2 0.5s;
+}

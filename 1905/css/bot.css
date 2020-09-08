@@ -1,0 +1,78 @@
+/* 底部 */
+.botbg{
+    background-color: #20232c;
+    width: 100%;
+    height: 200px;
+}
+.botsafe{
+    width: 1500px;
+    /* border: 1px solid red; */
+    height: 200px;
+    margin: 0 auto;
+}
+.botcon{
+    height: 200px;
+    width: 820px;
+    /* border: 1px solid blue; */
+}
+.bottop{
+    /* border: 1px green solid; */
+    height: 60px;
+}
+.botmid{
+    /* border: 1px yellow solid; */
+    height: 40px;
+}
+.botbot1{
+    /* border: 1px brown solid; */
+    margin: 7px 0;
+    height: 20px;
+}
+.botbot2{
+    /* border: 1px orange solid; */
+    height: 20px;
+    margin: 7px 0;
+}
+.linkbot2 a{
+    display: block;
+    color: #d5d5d5;
+    margin: 20px 0 0 20px;
+    float: left;
+}
+.linkbot2 a:hover{
+    display: block;
+    color: #2267ad;
+    margin: 20px 0 0 20px;
+    float: left;
+}
+.linkbot3 a{
+    display: block;
+    color: #525766;
+    margin: 0 0 0 20px;
+    float: left;
+}
+.linkbot3 a:hover{
+    display: block;
+    color: #2267ad;
+    margin: 0 0 0 20px;
+    float: left;
+}
+.maxbot{
+    width: 100%;
+    background-color: #282c37;
+    height: 50px;
+}
+.maxbotsafe{
+    width: 1500px;
+    margin: 0 auto;
+    /* border: 1px red solid; */
+    height: 50px;
+}
+
+/* .midzhe{
+    height: 130px;
+    width: 236px;
+    background-color: black;
+    position: relative;
+    left: -1000px;
+} */
